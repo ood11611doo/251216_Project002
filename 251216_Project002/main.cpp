@@ -210,5 +210,9 @@ int main() {
   }
 
   cout << ANSI_CURSOR_SHOW << flush;
+
+  if (player != nullptr) {
+    delete player;
+  }
   return 0;
 }
